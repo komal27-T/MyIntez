@@ -1,0 +1,4 @@
+function service()
+{
+	alert ("hello...");
+}

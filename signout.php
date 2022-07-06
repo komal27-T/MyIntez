@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(isset($_SESSION['uer_id']))
+{ 
+	unset($_SESSION['user_id']);
+}
+header("location:signin.php");
+session_destroy();
+?>
